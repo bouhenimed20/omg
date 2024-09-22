@@ -2,7 +2,7 @@
 FROM php:7.4-cli
 
 # Step 3: Copy the current directory contents into the container at /var/www/html
-COPY . /var/www/html/omg
+COPY . /var/www/html
 
 # Step 4: Expose port 80 to the outside world
 EXPOSE 80
